@@ -23,15 +23,21 @@ posts.js / comments.js
 	 	exports.path = "/posts"; // ("/comments")
 
 	 	exports.create = function(req, res) {
-	 		//handle posts
+	 		//handle post
 	 	}
 
 	 	exports.list = function(req, res) {
-	 		//handle gets
+	 		//handle get w/ no id
 	 	}
 
+		exports.findById = function(req, res) {
+			//handle get w/ req.params.id
+		}
+
 	 	exports.delete = function(req, res) {
+			//handle delete w/ req.params.id
 	 	}
 
 	 	exports.update = function(req, res) {
+			//handle put w/ req.params.id
 	 	}
