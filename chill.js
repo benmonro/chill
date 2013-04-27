@@ -9,7 +9,6 @@
 
 module.exports = function (app) {
 
-    console.log("hello");
     this.handle = function (route) {
 
         if(route.path) {
